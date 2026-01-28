@@ -22,8 +22,7 @@ read -p "Voulez-vous agir sur ces dossiers ? (o/n) : " reponse
 
 if [ "$reponse" = "o" ]; then
     echo "Action validée !"
-    # Astuce : Utilisez la variable $liste pour l'action
-    # echo "$liste" | xargs ...
+
 else
     echo "Annulé."
 fi
