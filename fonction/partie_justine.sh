@@ -9,4 +9,4 @@ echo "=== Création d'un répertoire maintenance ==="
 mkdir maintenance ## Création du répertoire de log nommé "maintenance"
 cd maintenance
 
-echo "Début de la maintenance" >> "maintenance_$(date+%Y%m%d_%H%M%S).log"
+echo "Début de la maintenance... Patientez." >> "maintenance_$(date+%Y%m%d_%H%M%S).log"
