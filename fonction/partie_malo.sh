@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# 1. On cherche et on met le résultat dans une variable
-# (On garde +60 jours en dur ou via variable, au choix)
+
 inactif=60
 
 liste=$(find /home -maxdepth 1 -mindepth 1 -type d -atime +$inactif)
